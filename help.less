@@ -1,0 +1,60 @@
+//main: ./style.less
+
+// background
+body{
+    background-image: url(../images/фонбоди.jpg);
+}
+
+section{
+    background-image: url(../images/сашамедиум.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media @mobrequest{
+        height: 100%;
+        //background-size: contain;
+    }
+}
+
+.skill_item{
+    background-image: url(../images/фонасвальт.jpg);
+}
+.form{
+    background-image: url(../images/фонасвальт.jpg);
+}
+
+.center{
+    text-align: center;
+}
+
+.iner{
+    color: black;
+}
+
+.line{
+    color: red;
+    text-decoration: line-through;
+}
+
+.italic{
+    font-style: italic;
+}
+.numb{
+    color: @yellow;
+}
+.marg{
+    margin: 4rem 30rem;
+}
+.mt{
+    margin-top: 3rem;
+}
+.mb{
+    margin-bottom: 10rem;
+}
+
+.pad{
+    padding: 1rem 2rem;
+}
+.none{
+    display: none;
+}
